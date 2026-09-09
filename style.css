@@ -1,4 +1,4 @@
-/* Configuración general */
+/* Configuracion general */
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -7,9 +7,9 @@ body {
     color: #333;
 }
 
-/* Encabezado y navegación */
+/* Encabezado y navegacion */
 header {
-    background-color: #d9534f; /* Color cálido corporativo de ferretería */
+    background-color: #047a39; /* Color calido corporativo de ferreteria */
     color: white;
     padding: 1.5rem 1rem;
     text-align: center;
@@ -40,7 +40,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Contenedor principal */
+/* principal */
 main {
     max-width: 900px;
     margin: 20px auto;
@@ -116,7 +116,7 @@ button:hover {
     margin-top: 15px;
 }
 
-/* Pie de página */
+/* Pie de pagina */
 footer {
     background-color: #333;
     color: white;

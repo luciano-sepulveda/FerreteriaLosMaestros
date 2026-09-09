@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ferretería Los Maestros - Contacto y Cotización</title>
-    <link rel="stylesheet" href="estilos.css">
+    <title>Ferreteria Los Maestros - Contacto y Cotizacion</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Ferretería Los Maestros</h1>
+        <h1>Ferreteria Los Maestros</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="ferreteria.html">Inicio</a></li>
+                <li><a href="productos.html">Catalogo</a></li>
                 <li><a href="contacto.html">Contacto / Cotizar</a></li>
             </ul>
         </nav>
@@ -21,50 +21,45 @@
 
     <main>
         <section>
-            <h2>Solicitud de Cotización o Consulta</h2>
-            <p>Contratistas y particulares pueden enviar sus dudas o lista de materiales aquí:</p>
+            <h2>Formulario de Cotizacion </h2>
+            <p>Si deseas mandar una lista de materiales para cotizacion o dudas sobre algo del catalogo pueden enviarlo aqui:</p>
             
             <form id="formContacto">
-                <div>
-                    <label for="tipoCliente">Tipo de Cliente:</label>
-                    <select id="tipoCliente" name="tipoCliente">
-                        <option value="particular">Particular</option>
-                        <option value="contratista">Contratista / Maestro de Obra</option>
-                    </select>
-                </div>
+                
 
                 <div>
                     <label for="nombre">Nombre Completo:</label>
-                    <input type="text" id="nombre" name="nombre" autocomplete="name" placeholder="Ej. Juan Pérez">
+                    <input type="text" id="nombre" name="nombre" autocomplete="name" placeholder="Ej. Luciano Sepulveda">
                 </div>
 
                 <div>
-                    <label for="correo">Correo Electrónico:</label>
-                    <input type="email" id="correo" name="correo" autocomplete="email" placeholder="ejemplo@correo.com">
+                    <label for="correo">Correo Electronico:</label>
+                    <input type="email" id="correo" name="correo" autocomplete="email" placeholder="luci.sepulveda@duocuc.com">
                 </div>
-
+                
                 <div>
-                    <label for="telefono">Teléfono de contacto:</label>
+                    <label for="telefono">Telefono de contacto:</label>
                     <input type="tel" id="telefono" name="telefono" autocomplete="tel" placeholder="+56 9 1234 5678">
                 </div>
 
                 <div>
                     <label for="mensaje">Detalle de Materiales o Consulta:</label>
-                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Indica los materiales, cantidades o consultas sobre stock..."></textarea>
+                    <textarea id="mensaje" name="mensaje" rows="10" placeholder="Aqui indica los materiales, cantidades o consultas..."></textarea>
                 </div>
 
                 <button type="submit">Enviar Solicitud</button>
+                
             </form>
 
-            <!-- Mensajes de estado cargados desde JavaScript -->
+            <!-- estado cargados  -->
             <p id="mensajeEstado" class="mensaje-estado"></p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Ferretería Los Maestros - La Serena, Región de Coquimbo</p>
+        <p>&copy; 2026 Ferreteria Los Maestros - La Serena, Region de Coquimbo</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="funciones.js"></script>
 </body>
 </html>
